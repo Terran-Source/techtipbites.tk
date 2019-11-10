@@ -20,7 +20,7 @@ If you want to create one of your own. Checkout the blog "" with template source
 
 ##### <u>Branch Details:</u>
 
-###### master:
+###### master
 
 [***Warning***]This branch contains the actual live site.  
 
@@ -32,10 +32,10 @@ The steps to add a new page/post/article are:
 4. Create a Pull Request (PR) and let the administrator know your intentions.
 5. Please don't try to serve the whole platter at once. As the name suggests, we're here to take a *<u>tip</u>* and/or a *<u>bite</u>* at a time.
 
-###### preview:
+###### preview
 
 This branch is the experimental ground for new pages, posts, structures, themes. Create a new *feature* branch from it if necessary.
 
-###### develop:
+###### develop
 
 If anything is feasible and lucrative enough to pass the *preview* phase. It'll be merged to *develop* & then will start its journey towards ***master***.
