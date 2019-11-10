@@ -22,7 +22,7 @@ If you want to create one of your own. Checkout the blog "" with template source
 
 ###### master:
 
-***[Warning]***This branch contains the actual live site.  
+[***Warning***]This branch contains the actual live site.  
 
 The steps to add a new page/post/article are:
 
