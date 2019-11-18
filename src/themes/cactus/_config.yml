@@ -16,6 +16,8 @@ direction: ltr
 nav:
   home: /
   articles: /archives/
+  #Categories: /categories/
+  #Tags: /tags/
   about: /about/
   #projects: /projects/
 
