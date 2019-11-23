@@ -7,7 +7,7 @@
 
 [build]
   base    = "src"
-  command = "npm run build"
+  command = "npm run draft-build"
   publish = "www"
   [build.environment]
     YARN_VERSION = "1.19.1"
@@ -16,7 +16,7 @@
 # Production context: All deploys from the main
 # repository branch will inherit these settings.
 [context.production]
-  # command = "copy"
+  command = "npm run build"
   [context.production.environment]
     ACCESS_TOKEN = "super secret"
     NODE_ENV = "production"
@@ -28,7 +28,7 @@
   [context.deploy-preview.environment]
     ACCESS_TOKEN = "not so secret"
     NODE_ENV = "development"
-    BRANCH_DESC = "Pull-Request checks"
+    BRANCH_DESC = "Pull-Request checks. Includes drafts"
 
 # Branch deploy context: All deploys that are not from a pull/merge request
 # or from the production branch will inherit these settings.
@@ -51,10 +51,11 @@
 # will inherit these settings.
 [context.develop]
   [context.develop.environment]
-    BRANCH_DESC = "Test before going Live"
+    BRANCH_DESC = "Test site with developing changes"
 
-# preview branch context: All deploys generated from develop branch
+# preview branch context: All deploys generated from preview branch
 # will inherit these settings.
 [context.preview]
+  command = "npm run build"
   [context.preview.environment]
-    BRANCH_DESC = "Draft Site with new changes"
+    BRANCH_DESC = "Preview Site with new changes before going live"
