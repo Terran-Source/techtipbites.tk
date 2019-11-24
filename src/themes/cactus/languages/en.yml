@@ -11,7 +11,7 @@ footer:
   copyright: Copyright
 
 index:
-  find_me_on: Find me on
+  find_me_on: Find us on
   enum_comma: ','
   enum_and: and
   articles: Writing
@@ -44,18 +44,18 @@ pagination:
 counter:
   tag_cloud:
     zero: No tags
-    one: ""
-    other: ""
+    one: ''
+    other: ''
 
   categories:
     zero: No categories
-    one: ""
-    other: ""
+    one: ''
+    other: ''
 
   archive_posts:
     zero: No posts.
-    one: ""
-    other: ""
+    one: ''
+    other: ''
 
 comments:
   no_js: Please enable JavaScript to view the comments.
