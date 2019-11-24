@@ -10,7 +10,7 @@ I was looking to setup a static website for *FREE* to write blogs. Let me know h
 
 This is a static website powered by [Hexo](https://hexo.io/). My choice for the theme is [Cactus](https://github.com/probberechts/hexo-theme-cactus) with it's [Dark varient](https://probberechts.github.io/hexo-theme-cactus/cactus-dark/public).
 
-If you want to create one of your own. Checkout the blog "[How This Site is Made (Free means Freedom)](https://www.techtipbites.tk/en/2019/ow-This-Site-is-Made-Free-means-Freedom/)" with template source at [git:hexo-static-blog](https://github.com/turn-a-round/hexo-static-blog.git)
+If you want to create one of your own. Checkout the blog "[How This Site is Made (Free means Freedom)](https://www.techtipbites.tk/en/2019/ow-This-Site-is-Made-Free-means-Freedom/)" with template source at [git:hexo-static-blog](https://github.com/Terran-Source/hexo-static-blog.git)
 
 ### <u>Developer Friendly Details:</u>
 
